@@ -10,6 +10,7 @@ let menuItems = [
   'Log Out'
 ];
 
+// Step 1
 function menuMaker(itemsArray) {
   const menuDiv = document.createElement('div');
   const menuList = document.createElement('ul');
@@ -18,12 +19,22 @@ function menuMaker(itemsArray) {
 
   menuDiv.classList.add('menu');
 
+  // Step 2
   itemsArray.forEach(listedItem => {
     const item = document.createElement('li');
     item.textContent = listedItem;
     menuList.appendChild(item);
   });
 
+  // Step 3
+  const menuButton = document.querySelector('.menu-button');
+
+  // Step 4
+  menuButton.addEventListener('click', () => {
+    menuDiv.classList.toggle('menu--open');
+  });
+
+  // Step 5
   return menuDiv;
 }
 
