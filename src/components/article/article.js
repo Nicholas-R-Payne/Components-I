@@ -110,6 +110,14 @@ function articleMaker(articleObj) {
   articleDiv.appendChild(articlePara2);
   articleDiv.appendChild(articlePara3);
   articleDiv.appendChild(expandButton);
+
+  // Step 2
+  expandButton.addEventListener('click', () => {
+    articleDiv.classList.toggle('article-open');
+  });
+
+  // Step 3
+  return articleDiv;
 }
 
 /*
