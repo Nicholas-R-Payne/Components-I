@@ -87,6 +87,27 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  // Step 5
+  {
+    title: 'Article by Nick',
+    date: 'Feb 9th, 2022',
+    firstParagraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra sem ante, vitae facilisis ligula faucibus ac. Ut varius tortor
+    lectus, vitae porttitor arcu ultrices non. Ut quis orci ac mauris elementum ullamcorper. Vivamus dolor erat, scelerisque a dui eget, volutpat dictum
+    ante. Etiam maximus nisi ac dictum tincidunt. Vestibulum nec eros ac leo tempus elementum. Suspendisse sagittis ac augue et imperdiet. Duis nec dapibus
+    mauris. Nullam rutrum lorem sit amet quam accumsan consequat non sit amet est. Sed tempus ornare leo dignissim lobortis. Vivamus egestas at sapien sed
+    placerat.`,
+
+    secondParagraph: `Integer cursus nisl eu consectetur auctor. Etiam venenatis faucibus nisl vitae mollis. Curabitur nibh libero, tincidunt nec molestie
+    sit amet, dignissim in tortor. Aliquam malesuada dignissim finibus. Donec sem nunc, laoreet id tincidunt sed, faucibus non lorem. Donec luctus mi tortor,
+    ac varius mauris rutrum at. Curabitur dignissim tempus tellus, lobortis ullamcorper lectus ornare vel. Suspendisse commodo suscipit molestie. Nulla
+    facilisi. Ut ex nisl, cursus nec congue vitae, pretium nec nunc. Integer condimentum dignissim sem, ut sodales neque fermentum sit amet. Ut bibendum
+    libero sed metus hendrerit porttitor. Suspendisse luctus nibh et neque consectetur sodales.`,
+
+    thirdParagraph: `Nulla et tellus nec dui porttitor tempor vel quis sem. Suspendisse vitae imperdiet magna. Praesent metus eros, vehicula ac purus
+    id, dictum maximus mi. Quisque at hendrerit nisi. Vivamus nec nisl nec nisi faucibus sodales vitae sed justo. Phasellus nec sem et ante molestie
+    sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam ut quam vitae lectus commodo vulputate
+    sed non est. In a turpis velit. Mauris ac metus faucibus, cursus augue non, auctor turpis. Proin molestie rhoncus dolor vel accumsan.`
   }
 ];
 
