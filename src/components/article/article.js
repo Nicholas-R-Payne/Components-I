@@ -111,6 +111,13 @@ function articleMaker(articleObj) {
   articleDiv.appendChild(articlePara3);
   articleDiv.appendChild(expandButton);
 
+  articleTitle.textContent = articleObj.title;
+  articleDate.textContent = articleObj.date;
+  articlePara1.textContent = articleObj.firstParagraph;
+  articlePara2.textContent = articleObj.secondParagraph;
+  articlePara3.textContent = articleObj.thirdParagraph;
+  expandButton.textContent = '+';
+
   // Step 2
   expandButton.addEventListener('click', () => {
     articleDiv.classList.toggle('article-open');
@@ -119,6 +126,11 @@ function articleMaker(articleObj) {
   // Step 3
   return articleDiv;
 }
+
+// Step 4
+data.forEach(article => {
+  document.querySelector('div.articles').appendChild(articleMaker(article));
+});
 
 /*
   Step 1: Write a component called 'articleMaker' to create an article.
